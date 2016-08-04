@@ -1,0 +1,26 @@
+1) Exportar el path donde se encuentra instalado anaconda
+
+export PATH="$HOME/anaconda2/bin:$PATH"
+
+2) Instalar tkinter para poder instalar swampy
+
+Python 2
+sudo apt-get install python-tk
+
+Python 3
+
+sudo apt-get install python python3-tk
+
+Instalar usando conda
+
+conda install tk
+
+Probar con el siquiente comando en el interprete de python
+>>import Tkinter
+
+3) Instalar swampy
+sudo pip install swampy --> sistema
+pip install -i https://pypi.anaconda.org/pypi/simple swampy
+
+
+
